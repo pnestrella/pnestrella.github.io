@@ -1,0 +1,51 @@
+h1{
+  font-size: 35px;
+  margin-bottom: auto;
+}
+
+.the_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 25%;
+  margin: 0 auto; /* Center horizontally */
+  padding-bottom: 20px;
+  font-family: Oswald, sans-serif; /* Set font to Oswald */
+}
+
+.gender{
+  display: inline-flex;
+}
+
+body{
+  background-color: lightslategray;
+  font-size: 20px;
+}
+
+.the_form form {
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.the_form label {
+  display: block;
+}
+
+input[type="reset"], input[ type="submit"]{
+  color: white;
+  border: 20px;
+  padding: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+
+#submit{
+  background-color: green;
+  color: white;
+}
+
+#reset{
+  background-color: red;
+}

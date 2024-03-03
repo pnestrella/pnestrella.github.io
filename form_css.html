@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&display=swap">
+</head>
+
+<body>
+<section class="the_form">
+    <h1>Registration Form</h1>
+    <form>
+        <label for="fname"> First Name:</label> 
+        <input class="box" type="text" name="fname">
+        <br>
+        <label for="lname"> Last Name:</label>
+        <input class="box" type="text" name="lname">
+        <br>
+        <label for="nname"> Nick Name: </label>
+        <input class="box" type="text" name="nname">
+        <br>
+        <label for="email"> Email:</label>
+        <input class="box" type="email" name="email">
+        <br>
+        <label for="pass"> Password:</label>
+        <input class="box" type="password" name="pass">
+        <br>
+        <label for="bday">Date of Birth: </label>
+        <input class="box" type="date" name="bday">
+        <br>
+        <div class="gender">
+            Gender: <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="female">
+            <label for="female">Other</label>
+        </div>
+        <br>
+        Mobile: <input type="number" name="num">
+        <br>
+        Address: <br> <textarea name="Address" cols="30" rows="10"></textarea>
+        <br>
+        <input id="submit" type="submit"> <input id="reset" type="reset">
+    </form>
+</section>
+</body>
+</html>
