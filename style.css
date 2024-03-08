@@ -3,6 +3,13 @@ h1{
   margin-bottom: auto;
 }
 
+form {
+    background-color: white; 
+    margin: 0 auto; 
+    width: fit-content; 
+    padding: 20px;
+}
+
 .the_form {
   display: flex;
   flex-direction: column;
